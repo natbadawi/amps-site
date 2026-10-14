@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Directory · Assyrian Medical Professional Society</title>
+<meta name="description" content="Connecting Assyrian physicians, nurses, pharmacists, dentists, and health professionals around the world.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark">AMPS</span><span>Assyrian Medical Professional Society</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menu">Menu</button>
+    <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="committees.html">Committees</a></li><li><a href="directory.html" aria-current="page">Directory</a></li><li><a href="members.html">Members</a></li></ul>
+  </div>
+</header>
+<main>
+<section class="page-head"><div class="container"><h1>Public directory</h1><p>Members who have chosen to be listed publicly. Members can sign in to the <a href="members.html">members directory</a> for full contact details.</p></div></section>
+<section class="section"><div class="container"><div class="toolbar">
+  <input type="search" placeholder="Search by name, city, organization…" data-search aria-label="Search members">
+  <select data-specialty aria-label="Filter by specialty"><option value="">All specialties</option><option value="Clinical Pharmacy">Clinical Pharmacy</option><option value="Internal Medicine">Internal Medicine</option></select>
+  <select data-country aria-label="Filter by country"><option value="">All countries</option><option value="Australia">Australia</option><option value="United States">United States</option></select>
+  <button type="button" class="btn btn-ghost" data-reset>Reset</button>
+</div>
+<div class="count" data-count></div>
+<div class="grid" data-filterable>
+<article class="card member" data-search="sample member one md internal medicine example health chicago united states" data-country="United States" data-specialty="Internal Medicine">
+  <div class="avatar" aria-hidden="true">SM</div>
+  <div>
+    <h3 class="name">Sample Member One, <span>MD</span></h3>
+    <p class="meta">Internal Medicine · Example Health</p>
+    <p class="meta">Chicago, United States</p>
+    
+    
+  </div>
+</article>
+<article class="card member" data-search="sample member two pharmd clinical pharmacy example hospital sydney australia" data-country="Australia" data-specialty="Clinical Pharmacy">
+  <div class="avatar" aria-hidden="true">SM</div>
+  <div>
+    <h3 class="name">Sample Member Two, <span>PharmD</span></h3>
+    <p class="meta">Clinical Pharmacy · Example Hospital</p>
+    <p class="meta">Sydney, Australia</p>
+    
+    <div class="contact"><a href="mailto:member2@example.com">member2@example.com</a></div>
+  </div>
+</article>
+</div></div></section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div>A professional society for Assyrian health-care professionals worldwide.</div>
+      <div>© 2026 Assyrian Medical Professional Society · <a href="mailto:info@example.org">info@example.org</a></div>
+    </div>
+    <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="committees.html">Committees</a><a href="directory.html">Directory</a><a href="members.html">Members</a></nav>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+
+</body>
+</html>

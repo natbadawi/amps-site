@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Members directory · Assyrian Medical Professional Society</title>
+<meta name="description" content="Connecting Assyrian physicians, nurses, pharmacists, dentists, and health professionals around the world.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="container">
+    <a class="brand" href="index.html"><span class="brand-mark">AMPS</span><span>Assyrian Medical Professional Society</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Menu">Menu</button>
+    <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="committees.html">Committees</a></li><li><a href="directory.html">Directory</a></li><li><a href="members.html" aria-current="page">Members</a></li></ul>
+  </div>
+</header>
+<main>
+<section class="page-head"><div class="container"><h1>Members directory</h1><p>The full directory with contact details is available to members only.</p></div></section>
+<section class="section"><div class="container">
+  <div id="lock" class="lock card">
+    <h3>Enter the members passphrase</h3>
+    <p>Members receive the passphrase from the society. Don't have it? <a href="mailto:info@example.org">Contact us</a>.</p>
+    <form id="unlock" style="margin-top:14px"><input id="passphrase" type="password" autocomplete="current-password" placeholder="Passphrase" required><button class="btn" type="submit">Unlock</button></form>
+    <div id="unlock-error" class="error" role="alert"></div>
+  </div>
+  <div id="members-out" hidden></div>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div>A professional society for Assyrian health-care professionals worldwide.</div>
+      <div>© 2026 Assyrian Medical Professional Society · <a href="mailto:info@example.org">info@example.org</a></div>
+    </div>
+    <nav><a href="index.html">Home</a><a href="about.html">About</a><a href="committees.html">Committees</a><a href="directory.html">Directory</a><a href="members.html">Members</a></nav>
+  </div>
+</footer>
+<script src="assets/site.js"></script>
+<script src="assets/members.js"></script>
+</body>
+</html>
